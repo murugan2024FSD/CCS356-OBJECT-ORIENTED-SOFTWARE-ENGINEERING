@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CCS356 – Important Questions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    h3 {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .question {
+      background: #ecf0f1;
+      border: 1px solid #bdc3c7;
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .answer {
+      display: none;
+      padding: 10px 15px;
+      background: #fdfdfd;
+      border-left: 4px solid #2980b9;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .question:hover {
+      background-color: #d0e4f7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1></h1>
+    <h1>CCS356 – Object Oriented Software Engineering</h1>
+    <h2>Important Questions – 02-06-2025</h2>
+
+    <h3>Part - A (2 Marks Questions)</h3>
+
+    <div class="question" onclick="toggleAnswer(this)">1.What is software Engineering</div>
+    <div class="answer">Software Engineering is the disciplined and systematic approach to the development, operation, and maintenance of software, using engineering principles to build high-quality, cost-effective, and maintainable software systems.   .</div>
+
+    <div class="question" onclick="toggleAnswer(this)">2.What is Software Development Lifecycle (or)  Software Process? List out its phases.</div>
+    <div class="answer">Software Development Lifecycle (SDLC) is a systematic process for planning, creating, testing, deploying, and maintaining software. It defines the phases involved in the development of a software product from initial idea to final deployment and maintenance.
+        Phases of SDLC:
+        1.	Requirement Analysis
+        2.	System Design
+        3.	Implementation (Coding)
+        4.	Testing
+        5.	Deployment
+        6.	Maintenance
+        .</div>
+
+    <div class="question" onclick="toggleAnswer(this)">3. What is XP (Extreme Programming) ?</div>
+    <div class="answer">Extreme Programming (XP) is an agile software development methodology that emphasizes frequent releases, customer collaboration, continuous testing, and simple design. It focuses on improving software quality and flexibility to changing requirements.</div>
+
+    
+    <div class="question" onclick="toggleAnswer(this)">4.Recall agile process? </div>
+    <div class="answer">The Agile Process is a flexible and iterative software development approach that emphasizes collaboration, customer feedback, and rapid delivery of small, working software increments. </div>
+
+    <div class="question" onclick="toggleAnswer(this)">5.List out the Software design patterns. </div>
+    <div class="answer">1.	Creational Patterns – Singleton, Factory Method, Abstract Factory, Builder, Prototype
+        2.	Structural Patterns – Adapter, Decorator, Composite, Proxy, Facade, Bridge, Flyweight
+        3.	Behavioral Patterns – Observer, Strategy, Command, Iterator, State, Template Method, Visitor, Mediator, Memento
+         </div>
+
+    <div class="question" onclick="toggleAnswer(this)">6.What is Software requirement specification? </div>
+    <div class="answer">Software Requirement Specification (SRS) is a formal document that describes the functional and non-functional requirements of a software system. It defines what the software should do, how it should perform, and serves as a contract between the client and the development team.
+
+    </div>
+
+    <div class="question" onclick="toggleAnswer(this)">7.List out the Various diagrams used in object modeling using UML </div>
+    <div class="answer">The various diagrams used in object modeling using UML are:
+        1.	Class Diagram
+        2.	Object Diagram
+        3.	Use Case Diagram 
+        4.	Sequence Diagram
+        5.	State Diagram
+        6.	Activity Diagram
+         </div>
+
+    <div class="question" onclick="toggleAnswer(this)">8.What are the types of requirements? </div>
+    <div class="answer"> The main types of requirements are:
+        1.	Functional Requirements – Specify what the system should do (features and functions).
+        2.	Non-Functional Requirements – Define how the system performs (performance, security, usability).
+        </div>
+
+    <div class="question" onclick="toggleAnswer(this)">9. Define:finite state machine </div>
+    <div class="answer"> A Finite State Machine (FSM) is a computational model consisting of a finite number of states, transitions between those states, and actions. It starts in an initial state and changes states based on input, following defined rules.</div>
+
+    <div class="question" onclick="toggleAnswer(this)">10.List out the software design patterns. </div>
+    <div class="answer">The main types of software design patterns are:
+        1.	Creational Patterns – e.g., Singleton, Factory, Abstract Factory
+        2.	Structural Patterns – e.g., Adapter, Decorator, Composite
+        3.	Behavioral Patterns – e.g., Observer, Strategy, Command
+         </div>
+
+    <div class="question" onclick="toggleAnswer(this)">11. What is mean by adapter  in software design?</div>
+    <div class="answer"> In software design, an Adapter is a structural design pattern that allows incompatible interfaces to work together. It acts as a bridge between two classes by converting the interface of one class into an interface expected by the client.</div>
+
+    <div class="question" onclick="toggleAnswer(this)">12.what is publish-subscribe in software design ? </div>
+    <div class="answer">In software design, Publish-Subscribe (Pub-Sub) is a messaging pattern where publishers send messages without knowing the recipients, and subscribers receive messages based on interest, without knowing the sender. It promotes loose coupling between components. </div>
+
+    <div class="question" onclick="toggleAnswer(this)">13.What is proxy,façade in software design? </div>
+    <div class="answer"> In software design:
+        •	Proxy is a structural design pattern that provides an object representing another object, controlling access to it. It can be used for lazy initialization, access control, or logging.
+        •	Facade is a structural design pattern that provides a simplified interface to a complex subsystem, making it easier to use by hiding the subsystem's complexity.
+        </div>
+
+    <div class="question" onclick="toggleAnswer(this)">14..What is UI design </div>
+    <div class="answer">UI (User Interface) Design is the process of designing the layout, visual elements, and interactive components of a software application or website. It focuses on creating an intuitive and aesthetically pleasing experience for users, ensuring ease of navigation and effective interaction. </div>
+
+    <div class="question" onclick="toggleAnswer(this)">15.What is symbolic execution? </div>
+    <div class="answer">Symbolic execution is a program analysis technique where a program is executed with symbolic inputs (instead of actual data). The execution explores multiple paths by using symbols to represent values, allowing the analysis of different possible outcomes and detecting potential errors or vulnerabilities without running the program with specific inputs.
+
+    </div>
+
+    <div class="question" onclick="toggleAnswer(this)">16. What is model checking ?</div>
+    <div class="answer">Model checking is an automated verification technique used in software engineering and hardware design to check whether a system (typically represented as a model) satisfies certain specifications or properties. It systematically explores all possible states of a system to ensure it adheres to predefined rules or behaviors, often focusing on aspects like safety, liveness, and correctness. </div>
+
+    <div class="question" onclick="toggleAnswer(this)">17. Define :Debugging </div>
+    <div class="answer">Debugging is the process of identifying, isolating, and fixing bugs or errors in software. It involves analyzing the code, running tests, and using tools to track down and resolve issues that cause the program to behave incorrectly or unexpectedly. </div>
+
+    <div class="question" onclick="toggleAnswer(this)">18.what is regression testing </div>
+    <div class="answer"> Regression testing is the process of testing software after changes (such as enhancements, bug fixes, or updates) to ensure that new code does not negatively impact the existing functionality. It helps verify that previously working features continue to function as expected.</div>
+
+    <div class="question" onclick="toggleAnswer(this)">19.Write the difference between black box and white box testing?</div>
+    <div class="answer">Black Box Testing:
+        •	Focuses on testing the functionality of the software without knowledge of its internal code or structure.
+        •	Testers validate inputs and outputs, ensuring the system meets the specified requirements.
+        White Box Testing:
+        •	Involves testing the internal structure, logic, and code of the software.
+        •	Testers need knowledge of the source code to create test cases, checking conditions like code paths and loops.
+         </div>
+
+    <div class="question" onclick="toggleAnswer(this)">20.What is Software project management? </div>
+    <div class="answer"> Software Project Management is the process of planning, organizing, and overseeing the development and delivery of software projects. It involves managing resources, timelines, budgets, and risks, ensuring the project meets its objectives, is completed on time, and stays within scope.</div>
+
+    <div class="question" onclick="toggleAnswer(this)">21.. Define :Software configuration management </div>
+    <div class="answer">Software Configuration Management (SCM) is the process of systematically managing and controlling changes to software and its associated artifacts throughout the software development lifecycle. It ensures the integrity, traceability, and consistency of software versions, configurations, and documentation. </div>
+
+    <div class="question" onclick="toggleAnswer(this)">22.What is project scheduling? </div>
+    <div class="answer"> Project scheduling is the process of planning and organizing tasks, resources, and timelines for a project. It involves defining project milestones, setting deadlines, and determining the sequence of activities to ensure the project is completed on time and within scope. It helps track progress and manage dependencies between tasks.</div>
+
+    <div class="question" onclick="toggleAnswer(this)">23..Add a note on :cloud as a platform  </div>
+    <div class="answer"> loud as a Platform refers to using cloud computing services to develop, deploy, and manage applications over the internet. It offers scalable resources, flexibility, and cost efficiency without the need for physical infrastructure. Popular examples include AWS, Microsoft Azure, and Google Cloud, which provide services like computing, storage, and networking to support business needs.</div>
+
+    <div class="question" onclick="toggleAnswer(this)">24.. what are deployment tools? </div>   
+    <div class="answer"> Deployment tools are software applications or platforms that automate the process of moving code from development to production environments. They help streamline the deployment process, ensuring consistency, speed, and error-free releases. Examples include Jenkins, Docker, and Kubernetes, which manage builds, testing, and deployment pipelines efficiently.</div>
+
+    <h3>Part - B (13 Marks Questions)</h3>
+
+    <div class="question" onclick="toggleAnswer(this)">1. Explain the various phases of Object Oriented Software Development Life Cycle.</div>
+    <div class="answer"> Click <a href="Explain the various phases of Object Oriented Software Development Life Cycle.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">2.What is Agile methodology ? Explain how xp extreme programming is used  in agile methodology ?</div>
+    <div class="answer">Click <a href="What is Agile methodology.docx">Answer </a>
+    </div>
+
+    <div class="question" onclick="toggleAnswer(this)">3.Discuss in detail about the perceptive and specialized software development models </div>
+    <div class="answer">Click <a href="Perceptive Software Development Models.docx">Answer</a></div>
+
+    
+    <div class="question" onclick="toggleAnswer(this)">4.Explain how are requirements gathered , analysed. </div>
+    <div class="answer">Click <a href="Requirements gathering and analysis is a critical phase in the systems development life cycle.docx">Answer</a></div>
+    
+    
+    <div class="question" onclick="toggleAnswer(this)">5.Software Requriment Specification </div>
+    <div class="answer">Click <a href="Software Requirements Specification.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)"> 6.Formal System Specification </div>
+    <div class="answer">Click <a href="Formal System Specification.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">7.Explain the Various architectural styles in a software design  </div>
+    <div class="answer">Click <a href="Architectural Styles in Software Design.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)"> 8. Explain the software design process.</div>
+    <div class="answer">Click <a href="Software Design Process.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">9. Explain coupling  cohesion and functional independence</div>
+    <div class="answer">Click <a href="explain coupling  cohesion and functional independence.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)"> 10.What is software testing ? explain the steps involved in it. </div>
+    <div class="answer">Click <a href="What is Software Testing.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">11.Explain integration and system testing with application  </div>
+    <div class="answer">Click <a href="Integration and System Testing.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">12.Explain white box and black box testing with  application  </div>
+    <div class="answer">Click <a href="White Box and Black Box Testing.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">13.Explain Project scheduling , devops, clouds as platform</div>
+    <div class="answer">Click <a href="Project Scheduling.docx">Answer</a></div>
+
+    <div class="question" onclick="toggleAnswer(this)">14.Explain the Depolyment pipeline overall architecture and its tools </div>
+    <div class="answer">Click <a href="Deployment Pipeline.docx">Answer</a></div>
+
+
+
+    
+    
+
+    
+
+    
+
+
+    <h3>Part - C (15 Marks Questions)</h3>
+
+    <div class="question" onclick="toggleAnswer(this)">1. Explain the Requirement and various diagrams used in object modeling using UML for the Following (i)Library management system (ii) Railway reservation system </div>
+    <div class="answer"></div>
+
+    
+  </div>
+
+  <script>
+    function toggleAnswer(el) {
+      const answer = el.nextElementSibling;
+      answer.style.display = answer.style.display === "block" ? "none" : "block";
+    }
+  </script>
+  
+<p>&copy;Murugan</p>
+</body>
+</html>
